@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="TR-tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Film İzle</title>
+    <link  rel="stylesheet" href="filmizle.css"/> // Css dosyasını bağladım
+    <script src="BUTTON.JS"></script>            //  JavaScript dosyası
+</head>
+<body>
+    <header>
+        <div class="Başlık">
+            <h1>FİLM SİTESİ</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="filmizle.html">ANASAYFA</a></li>
+                <li><a href="filmizle.html">Popüler Filmler</a></li>
+                <li><a href="iletişim.html">İletişim</a></li>
+            </ul>
+        </nav>
+        
+        
+    </header>
+     // BAŞLIK
+    <figure>    // // Film hakkında resim, konu vb. şeyler
+        <img src="uckagıtcı.jpg" alt="foto 1" class="foto-1" 
+        width="275px"
+        height="255px"/>
+    </figure>
+
+    <p>
+        <b>ÜÇ KAĞITÇI</b><BR>
+        <b>KONUSU:</b>Ölen babasının mallarını satmak için Almanya'dan köyüne dönen Rıfkı tesadüfler sonucu bir 'ermiş'e dönüşür
+        <br><b>OYUNCULAR:</b>Kemal Sunal, Ali Şen, Ülkü Özen,Turgut Özatay,Nizam Ergüden<br>
+        <b>YÖNETMEN:</b>Natuk Baytan<br>
+        <b>YIL:</b>1981 <br>
+        <b>Süre:</b>80 DAKİKA
+    </p>
+
+    <button class="birinci" id="button1" >Filmi İzlemek İçin Tıklayınız</button> // button 
+    
+   
+    <figure2>  // Film hakkında resim, konu vb. şeyler
+        <img src="sahtekabadayı.jpg" alt="foto 2" class="foto-2"
+        width="275px"
+        height="255px"/>
+    </figure2>
+    <p2>
+        <b>SAHTE KABADAYI</b><br>
+        <b>KONUSU:</b> babasının intikamını almak için farklı bir dünyanın kapılarını aralayan Kemal'in başına gelenleri konu ediyor. Kemal ünlü bir mafya babasının oğludur. Fakat babasının aksine onun sakin, mütevazi bir hayatı vardır. Günlerini garda pişmaniye satarak geçirmektedir.<br>
+        <b>YÖNETMEN:</b>Natuk Baytan<br>
+        <b>OYUNCULAR:</b>Kemal Sunal, Yavuz Selekman, Suna Selan, Mümtaz Ener<br>
+        <b>YIL:</b>1976 <br>
+        <b>SÜRE:</b>76 DAKİKA
+    </p2>
+    <button  class="ikinci" id="button2">Filmi İzlemek İçin Tıklayınız</button>
+
+    <figure3>
+        <img src="barda.jpg" alt="foto 3" class="foto-3"
+        width="275px"
+        height="255px"/>
+    </figure>
+    <p3><b>BARDA</b><br>
+        <b>KONUSU:</b>Bir grup genç barda eğlenirken bir grup insanın gelip onlara vahşice şiddetlerini anlatan bir filmdir.Gerçek hayattan uyarlanmıştır.<br>
+        <b>OYUNCULAR:</b>Nejat İşler,Erdal Beşikçioğlu,Melisa Birkan,Hakan Boyav<br>
+        <b>YÖNETMEN:Serdar Akar<br>
+        <b>YIL:</b>2007<br>
+        <b>Süre:</b>92 Dakika
+
+    </p3>
+
+    <button class="ucuncu" id="button3">Filmi İzlemek İçin Tıklayınız</button>
+/>
+<div class="horizontal-line"></div>
+<div class="horizontal-line1"></div>
+
+</body>
+</html>
