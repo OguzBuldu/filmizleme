@@ -1,0 +1,14 @@
+document.addEventListener("DOMContentLoaded", function() { // DOM yüklendiğinde
+
+    document.getElementById("button1").addEventListener("click", function() {
+        window.open("https://www.youtube.com/watch?v=6xVREEH66iw", "_blank"); // FİLMİ AÇMAK İÇİN GİRİLEN LİNK
+    });
+
+    document.getElementById("button2").addEventListener("click", function() {
+        window.open("https://www.youtube.com/watch?v=BTh074l83vI&t", "_blank"); // FİLMİ AÇMAK İÇİN GİRİLEN LİN
+    });
+
+    document.getElementById("button3").addEventListener("click", function() {
+        window.open("https://www.youtube.com/watch?v=qlK2-65tV9M","_blank");  // FİLMİ AÇMAK İÇİN GİRİLEN LİN
+    });
+});
